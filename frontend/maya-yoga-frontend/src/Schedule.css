@@ -1,0 +1,72 @@
+.schedule-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+  
+  .day-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .spacer {
+    width: 20px; /* Space between columns */
+  }
+  
+  .dark-grey {
+    background-color: #3a3a3a; /* Dark grey for Monday, Wednesday, and Friday */
+    border-radius: 8px;
+  }
+  
+  .red {
+    color: red;
+  }
+  
+  .blue {
+    color: turquoise;
+  }
+  
+  .green {
+    color: green;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  p {
+    margin: 5px 0;
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  
+  /* Style for AM classes */
+  .am-class {
+    color: #f0e68c; /* Yellowish white */
+    margin-bottom: 30px;
+  }
+  
+  /* Style for PM classes */
+  .pm-class {
+    color: #add8e6; /* Light blue */
+    margin-top: 40px;
+  }
+  
+  /* Filler node for empty slots */
+  .filler {
+    height: 35px; /* Adjust the height for empty slots */
+    margin-bottom: 30px;
+    visibility: hidden; /* Keeps spacing but invisible */
+  }
+  
+  
+  
+  
+  
+  
+  
+  

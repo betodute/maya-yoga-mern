@@ -57,7 +57,7 @@
   /* Filler node for empty slots */
   @media (min-width: 768px) {
     .filler {
-      height: 2.6em;
+      height: 4.3em;
       padding-bottom: 1.5em;
       visibility: hidden;
     }

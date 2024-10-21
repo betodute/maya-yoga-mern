@@ -3,13 +3,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 2em;
+    padding: 2em;
     text-align: center;
     width: 100%;
 }
 
 .footer-wrapper p {
-    color: antiquewhite
+    color: antiquewhite;
+    font-size: 1.5em;
+    font-family: "MuseoModerno", sans-serif;
+}
+
+.address {
+    margin-bottom: -1em;
 }
 
 

@@ -6,7 +6,7 @@ export const Schedule = () => {
     <div className="schedule-wrapper">
       <div className="day-column dark-grey">
         <h2 className="blue">Lunes</h2>
-        <p className="am-class">Original Hot Yoga<br />c/ Beto 7am</p>
+        <p className="am-class">Original Hot<br />c/ Beto 7am</p>
         <p className="am-class">Slow Vinyasa<br />c/ Athenas 9am</p>
         <p className="pm-class">Mindful Vinyasa<br />c/ Maya 6pm</p>
       </div>
@@ -18,7 +18,7 @@ export const Schedule = () => {
       </div>
       <div className="day-column dark-grey">
         <h2 className="blue">Miércoles</h2>
-        <p className="am-class">Hot Yin Yoga<br />c/ Beto 7am</p>
+        <p className="am-class">Hot Yin<br />c/ Beto 7am</p>
         <p className="am-class">Slow Vinyasa<br />c/ Athenas 9am</p>
         <p className="pm-class">Mindful Vinyasa<br />c/ Maya 6pm</p>
       </div>
@@ -30,7 +30,7 @@ export const Schedule = () => {
       </div>
       <div className="day-column dark-grey">
         <h2 className="blue">Viernes</h2>
-        <p className="am-class">Original Hot Yoga<br />c/ Beto 7am</p>
+        <p className="am-class">Original Hot<br />c/ Beto 7am</p>
         <p className="am-class">Slow Vinyasa<br />c/ Athenas 9am</p>
         <p className="pm-class">Mindful Vinyasa<br />c/ Maya 6pm</p>
       </div>

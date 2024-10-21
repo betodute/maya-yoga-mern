@@ -54,12 +54,13 @@
   .pm-class {
     color: #add8e6;
     margin-top: 1.5em;
+    margin-bottom: 2em;
   }
   
   /* Filler node for empty slots */
   .filler {
-    height: 35px;
-    margin-bottom: 30px;
+    height: 2em;
+    margin-bottom: 1.5em;
     visibility: hidden;
   }
   

@@ -1,30 +1,30 @@
 .schedule-wrapper {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    justify-content: center; /* Centers the entire schedule horizontally */
+    align-items: flex-start; /* Aligns the items at the top */
+    width: 100%;
   }
   
   .day-column {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin: 0 20px;
-    padding: 20px;
+    margin: 0 .5em;
+    padding: .5em;
     position: relative;
+    width: calc(20% - 40px); /* Ensure columns take up even space, with 20px margin */
   }
   
   .spacer {
-    width: 20px; /* Space between columns */
+    width: 20px;
   }
   
   .dark-grey {
-    background-color: #3a3a3a; /* Dark grey for Monday, Wednesday, and Friday */
+    background-color: #3a3a3a;
     border-radius: 8px;
   }
   
-  .red {
-    color: red;
-  }
+  /* Day heading colors */
   
   .blue {
     color: turquoise;
@@ -34,34 +34,53 @@
     color: green;
   }
   
+  /* General text styles */
   h2 {
-    margin-bottom: 10px;
+    margin-bottom: 1.5em;
   }
   
   p {
-    margin: 5px 0;
+    margin: .5em;
     font-size: 1.1rem;
     text-align: center;
   }
   
-  /* Style for AM classes */
+  /* Styles for AM and PM classes */
   .am-class {
-    color: #f0e68c; /* Yellowish white */
-    margin-bottom: 30px;
+    color: #f0e68c;
+    margin-bottom: 1.5em;
   }
   
-  /* Style for PM classes */
   .pm-class {
-    color: #add8e6; /* Light blue */
-    margin-top: 40px;
+    color: #add8e6;
+    margin-top: 1.5em;
   }
   
   /* Filler node for empty slots */
   .filler {
-    height: 35px; /* Adjust the height for empty slots */
+    height: 35px;
     margin-bottom: 30px;
-    visibility: hidden; /* Keeps spacing but invisible */
+    visibility: hidden;
   }
+  
+  /* Responsive Design: For smaller screens like mobile phones */
+  @media (max-width: 768px) {
+    .schedule-wrapper {
+      flex-direction: column;
+      align-items: center; /* Centers the days on mobile */
+    }
+  
+    .day-column {
+      width: 100%; /* Each day takes full width of screen */
+      margin-bottom: 20px; /* Adds spacing between the days */
+    }
+  
+    .spacer {
+      display: none; /* Remove spacers on mobile */
+    }
+  }
+  
+  
   
   
   

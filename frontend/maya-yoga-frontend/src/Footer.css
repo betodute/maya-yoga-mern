@@ -1,3 +1,16 @@
 .footer-wrapper {
-    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2em;
+    text-align: center;
+    width: 100%;
 }
+
+.footer-wrapper p {
+    color: antiquewhite
+}
+
+
+  

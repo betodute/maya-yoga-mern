@@ -1,0 +1,21 @@
+.header-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2em 2em 2em;
+    text-align: center; /* Ensure text is centered too */
+    width: 100%; /* Make sure the header takes the full width */
+}
+
+.header-wrapper h1, h2 {
+    color: antiquewhite;
+}
+
+.header-wrapper h1 {
+    font-size: 3em;
+}
+
+
+
+  
